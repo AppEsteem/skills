@@ -1,0 +1,77 @@
+AppEsteem Skills — Licensing
+============================
+
+This repository is dual-licensed. Which license applies depends on which part of
+the repository you are using.
+
+  * Tooling and configuration — MIT License (Section 1)
+        scripts/**
+        .github/**
+        any other build, CI, or configuration file in this repository
+
+  * Skill content and requirement text — Creative Commons Attribution 4.0
+    International (CC BY 4.0) (Section 2)
+        skills/**            (SKILL.md, references/acrs.md, references/report-template.md)
+        README.md
+
+Copyright (c) 2026 AppEsteem Corporation.
+
+"AppEsteem", the AppEsteem logo, and "Deceptor" are trademarks of AppEsteem
+Corporation. Neither license below grants trademark rights, and neither grants
+permission to state or imply that any software is AppEsteem-certified. AppEsteem
+certification is granted only by AppEsteem Corporation through its certification
+program; using this skill is not certification.
+
+
+------------------------------------------------------------------------------
+Section 1 — MIT License (applies to the tooling: scripts/**, .github/**)
+------------------------------------------------------------------------------
+
+Copyright (c) 2026 AppEsteem Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------------------------------------------------------------------------------
+Section 2 — CC BY 4.0 (applies to the skill content: skills/**, README.md)
+------------------------------------------------------------------------------
+
+The skill instructions, the Application Compliance Requirements (ACR) text
+reproduced in skills/appesteem-acr-compliance/references/acrs.md, and the
+report template are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You are free to share (copy and redistribute in any medium or format) and adapt
+(remix, transform, and build upon) this material for any purpose, including
+commercially — for example, redistributing the skill inside an agent-skill
+catalog or bundling it with a developer tool — provided you give appropriate
+credit, link to the license, and indicate if changes were made.
+
+Attribution should read, or be equivalent to:
+
+    "AppEsteem ACR Compliance skill" by AppEsteem Corporation
+    (https://appesteem.com), licensed under CC BY 4.0
+    (https://creativecommons.org/licenses/by/4.0/).
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The ACRs are living requirements maintained by AppEsteem Corporation and change
+over time. If you redistribute a copy of references/acrs.md, retain the
+generation date in its header so downstream users can tell how current it is.
+The authoritative, current version is always the live API cited in that header.

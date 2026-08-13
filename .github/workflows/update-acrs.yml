@@ -1,0 +1,34 @@
+name: Update ACR data
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Regenerate references/acrs.md from the live API
+        run: node scripts/generate-acrs.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet skills/appesteem-acr-compliance/references/acrs.md; then
+            echo "ACRs unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "acr-update-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add skills/appesteem-acr-compliance/references/acrs.md
+          git commit -m "chore: update ACRs from live API ($(date -u +%F))"
+          git push
