@@ -9,7 +9,7 @@ Teaches AI coding agents (Claude Code, Codex, Copilot, Gemini CLI, Cursor, and a
 **Install:**
 
 ```bash
-npx skills add appesteem/skills
+npx skills add AppEsteem/skills
 ```
 
 Or copy `skills/appesteem-acr-compliance/` into your agent's skills directory (e.g., `.claude/skills/` for Claude Code). No build step, no dependencies.
