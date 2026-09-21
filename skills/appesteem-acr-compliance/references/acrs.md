@@ -1,6 +1,6 @@
 # AppEsteem Application Compliance Requirements (ACRs)
 
-> GENERATED FILE — do not edit by hand. Generated 2026-09-14 from https://customer.appesteem.com/api/hints?req=Certification&minbar=n by scripts/generate-acrs.mjs. 131 requirements (57 Deceptor-level, 74 certification-level). Requirement text is reproduced verbatim from AppEsteem's live data.
+> GENERATED FILE — do not edit by hand. Generated 2026-09-21 from https://customer.appesteem.com/api/hints?req=Certification&minbar=n by scripts/generate-acrs.mjs. 131 requirements (57 Deceptor-level, 74 certification-level). Requirement text is reproduced verbatim from AppEsteem's live data.
 
 ## How to read this file
 
