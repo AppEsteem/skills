@@ -1,6 +1,6 @@
 # AppEsteem Application Compliance Requirements (ACRs)
 
-> GENERATED FILE — do not edit by hand. Generated 2026-10-05 from https://customer.appesteem.com/api/hints?req=Certification&minbar=n by scripts/generate-acrs.mjs. 131 requirements (57 Deceptor-level, 74 certification-level). Requirement text is reproduced verbatim from AppEsteem's live data.
+> GENERATED FILE — do not edit by hand. Generated 2026-10-12 from https://customer.appesteem.com/api/hints?req=Certification&minbar=n by scripts/generate-acrs.mjs. 132 requirements (58 Deceptor-level, 74 certification-level). Requirement text is reproduced verbatim from AppEsteem's live data.
 
 ## How to read this file
 
@@ -10,7 +10,7 @@ Each entry is one certification requirement. **Severity** tells you what a viola
 
 All ACRs that apply in each lifecycle phase (an ACR can appear in several):
 
-- **Install** (33): [ACR-002](#acr-002), [ACR-003](#acr-003-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-015](#acr-015-), [ACR-017](#acr-017-), [ACR-038](#acr-038), [ACR-039](#acr-039-), [ACR-040](#acr-040), [ACR-042](#acr-042-), [ACR-043](#acr-043-), [ACR-044](#acr-044), [ACR-045](#acr-045), [ACR-046](#acr-046-), [ACR-047](#acr-047-), [ACR-048](#acr-048-), [ACR-049](#acr-049), [ACR-050](#acr-050-), [ACR-051](#acr-051-), [ACR-053](#acr-053-), [ACR-055](#acr-055-), [ACR-065](#acr-065), [ACR-085](#acr-085-), [ACR-107](#acr-107-), [ACR-109](#acr-109-), [ACR-151](#acr-151), [ACR-161](#acr-161), [ACR-163](#acr-163)
+- **Install** (34): [ACR-002](#acr-002), [ACR-003](#acr-003-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-015](#acr-015-), [ACR-017](#acr-017-), [ACR-028](#acr-028-), [ACR-038](#acr-038), [ACR-039](#acr-039-), [ACR-040](#acr-040), [ACR-042](#acr-042-), [ACR-043](#acr-043-), [ACR-044](#acr-044), [ACR-045](#acr-045), [ACR-046](#acr-046-), [ACR-047](#acr-047-), [ACR-048](#acr-048-), [ACR-049](#acr-049), [ACR-050](#acr-050-), [ACR-051](#acr-051-), [ACR-053](#acr-053-), [ACR-055](#acr-055-), [ACR-065](#acr-065), [ACR-085](#acr-085-), [ACR-107](#acr-107-), [ACR-109](#acr-109-), [ACR-151](#acr-151), [ACR-161](#acr-161), [ACR-163](#acr-163)
 - **Software** (60): [ACR-001](#acr-001), [ACR-002](#acr-002), [ACR-003](#acr-003-), [ACR-004](#acr-004-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-008](#acr-008-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-015](#acr-015-), [ACR-017](#acr-017-), [ACR-042](#acr-042-), [ACR-048](#acr-048-), [ACR-049](#acr-049), [ACR-050](#acr-050-), [ACR-051](#acr-051-), [ACR-056](#acr-056), [ACR-065](#acr-065), [ACR-069](#acr-069), [ACR-082](#acr-082), [ACR-083](#acr-083-), [ACR-084](#acr-084-), [ACR-085](#acr-085-), [ACR-086](#acr-086-), [ACR-087](#acr-087), [ACR-088](#acr-088), [ACR-089](#acr-089-), [ACR-090](#acr-090), [ACR-092](#acr-092), [ACR-093](#acr-093), [ACR-094](#acr-094), [ACR-095](#acr-095), [ACR-097](#acr-097-), [ACR-098](#acr-098), [ACR-099](#acr-099), [ACR-100](#acr-100), [ACR-102](#acr-102), [ACR-103](#acr-103-), [ACR-104](#acr-104-), [ACR-106](#acr-106), [ACR-107](#acr-107-), [ACR-110](#acr-110-), [ACR-111](#acr-111-), [ACR-113](#acr-113), [ACR-114](#acr-114-), [ACR-138](#acr-138), [ACR-139](#acr-139), [ACR-140](#acr-140), [ACR-151](#acr-151), [ACR-153](#acr-153), [ACR-157](#acr-157), [ACR-160](#acr-160), [ACR-161](#acr-161), [ACR-162](#acr-162), [ACR-163](#acr-163), [ACR-168](#acr-168-), [ACR-170](#acr-170)
 - **Uninstall** (22): [ACR-002](#acr-002), [ACR-003](#acr-003-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-017](#acr-017-), [ACR-116](#acr-116-), [ACR-117](#acr-117-), [ACR-118](#acr-118-), [ACR-119](#acr-119-), [ACR-120](#acr-120), [ACR-121](#acr-121), [ACR-122](#acr-122-), [ACR-123](#acr-123), [ACR-124](#acr-124-), [ACR-125](#acr-125), [ACR-161](#acr-161), [ACR-163](#acr-163)
 - **Docs** (17): [ACR-002](#acr-002), [ACR-003](#acr-003-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-017](#acr-017-), [ACR-035](#acr-035), [ACR-036](#acr-036), [ACR-037](#acr-037), [ACR-161](#acr-161), [ACR-163](#acr-163), [ACR-167](#acr-167), [ACR-172](#acr-172)
@@ -34,7 +34,7 @@ Most ACRs apply to every consumer app. These apply only when the gate is true:
 
 ## All Deceptor-level ACRs at a glance
 
-[ACR-003](#acr-003-), [ACR-004](#acr-004-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-008](#acr-008-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-015](#acr-015-), [ACR-016](#acr-016-), [ACR-017](#acr-017-), [ACR-020](#acr-020-), [ACR-024](#acr-024-), [ACR-025](#acr-025-), [ACR-030](#acr-030-), [ACR-031](#acr-031-), [ACR-032](#acr-032-), [ACR-039](#acr-039-), [ACR-042](#acr-042-), [ACR-043](#acr-043-), [ACR-046](#acr-046-), [ACR-047](#acr-047-), [ACR-048](#acr-048-), [ACR-050](#acr-050-), [ACR-051](#acr-051-), [ACR-053](#acr-053-), [ACR-055](#acr-055-), [ACR-057](#acr-057-), [ACR-059](#acr-059-), [ACR-060](#acr-060-), [ACR-071](#acr-071-), [ACR-075](#acr-075-), [ACR-083](#acr-083-), [ACR-084](#acr-084-), [ACR-085](#acr-085-), [ACR-086](#acr-086-), [ACR-089](#acr-089-), [ACR-097](#acr-097-), [ACR-103](#acr-103-), [ACR-104](#acr-104-), [ACR-107](#acr-107-), [ACR-109](#acr-109-), [ACR-110](#acr-110-), [ACR-111](#acr-111-), [ACR-114](#acr-114-), [ACR-116](#acr-116-), [ACR-117](#acr-117-), [ACR-118](#acr-118-), [ACR-119](#acr-119-), [ACR-122](#acr-122-), [ACR-124](#acr-124-), [ACR-155](#acr-155-), [ACR-164](#acr-164-), [ACR-165](#acr-165-), [ACR-168](#acr-168-)
+[ACR-003](#acr-003-), [ACR-004](#acr-004-), [ACR-005](#acr-005-), [ACR-006](#acr-006-), [ACR-007](#acr-007-), [ACR-008](#acr-008-), [ACR-009](#acr-009-), [ACR-010](#acr-010-), [ACR-013](#acr-013-), [ACR-014](#acr-014-), [ACR-015](#acr-015-), [ACR-016](#acr-016-), [ACR-017](#acr-017-), [ACR-020](#acr-020-), [ACR-024](#acr-024-), [ACR-025](#acr-025-), [ACR-028](#acr-028-), [ACR-030](#acr-030-), [ACR-031](#acr-031-), [ACR-032](#acr-032-), [ACR-039](#acr-039-), [ACR-042](#acr-042-), [ACR-043](#acr-043-), [ACR-046](#acr-046-), [ACR-047](#acr-047-), [ACR-048](#acr-048-), [ACR-050](#acr-050-), [ACR-051](#acr-051-), [ACR-053](#acr-053-), [ACR-055](#acr-055-), [ACR-057](#acr-057-), [ACR-059](#acr-059-), [ACR-060](#acr-060-), [ACR-071](#acr-071-), [ACR-075](#acr-075-), [ACR-083](#acr-083-), [ACR-084](#acr-084-), [ACR-085](#acr-085-), [ACR-086](#acr-086-), [ACR-089](#acr-089-), [ACR-097](#acr-097-), [ACR-103](#acr-103-), [ACR-104](#acr-104-), [ACR-107](#acr-107-), [ACR-109](#acr-109-), [ACR-110](#acr-110-), [ACR-111](#acr-111-), [ACR-114](#acr-114-), [ACR-116](#acr-116-), [ACR-117](#acr-117-), [ACR-118](#acr-118-), [ACR-119](#acr-119-), [ACR-122](#acr-122-), [ACR-124](#acr-124-), [ACR-155](#acr-155-), [ACR-164](#acr-164-), [ACR-165](#acr-165-), [ACR-168](#acr-168-)
 
 ## Install
 
@@ -147,11 +147,11 @@ Installer code and install-time UX: what gets written to disk and registry, what
 
 **Severity: DECEPTOR-LEVEL** — violating this can get the app listed as a Deceptor; AV/security vendors block Deceptors without prompting the user.
 
-**Requirement:** (ACR-013) User-committed acquisition workflows are not interrupted with out-of-context, non-essential, or unrelated interstitials that require the user to wait or respond, unless app has first obtained explicit, informed user consent immediately prior to the interruption.
+**Requirement:** (ACR-013) User-committed acquisition workflows are not interrupted with out-of-context, non-essential, or unrelated interstitials that require the user to wait or respond, unless app has first obtained user consent.
 
-**Intent:** Unless they've explicitly given their informed consent immediately prior, consumers should not have to wait for or respond to extraneous questions, offers, or ads during committed workflows, especially those related to the acquisition funnel (downloads, installs, updates, purchases, and uninstalls).
+**Intent:** Unless they've given their consent, consumers should not have to wait for or respond to extraneous questions, offers, or ads during committed workflows, especially those related to the acquisition funnel (downloads, installs, updates, purchases, and uninstalls).
 
-**How to comply:** Don't interrupt the consumer with unrelated interstitials when the consumer is already performing another task for you. Either wait until they know the task is complete; remove the interruption by eliminating the need for the user to wait or answer your offer/ad; or obtain explicit, informed user consent to interrupt with offers/ads immediately prior to the interruption. Consent must be standalone, disclose offer provider, state risks and mitigations, and have a statement that the consent isn't required to complete the workflow.
+**How to comply:** Don't interrupt the consumer with unrelated interstitials when the consumer is already performing another task for you. Either wait until they know the task is complete; remove the interruption by eliminating the need for the user to wait or answer your offer/ad; or consent to interrupt with offers/ads..
 
 **Scenarios:** Install, Software, Uninstall, Docs, Landing page, Inline offers, In-bundle offers, Bundler-made offers, Internal offers, Ads about app, Ads inside app, Injected ads, Injected interstitials
 **Consumer principle:** fair
@@ -177,7 +177,7 @@ Installer code and install-time UX: what gets written to disk and registry, what
 
 **Severity: DECEPTOR-LEVEL** — violating this can get the app listed as a Deceptor; AV/security vendors block Deceptors without prompting the user.
 
-**Requirement:** (ACR-015) (effective October 2026): Protects from app abuse, takeover, and unwanted misuse of its capabilities; honors the spirit of its claims and implications of how it will protect consumer and system data.
+**Requirement:** (ACR-015) Protects from app abuse, takeover, and unwanted misuse of its capabilities; honors the spirit of its claims and implications of how it will protect consumer and system data.
 
 **Intent:** Regardless of how an app is or isn't monetized, consumers can rely on all privacy and protection claims an app makes or implies, and they can trust that the app will protect from abuse, takeover, or misuse.
 
@@ -200,6 +200,19 @@ Installer code and install-time UX: what gets written to disk and registry, what
 **Consumer principle:** transparent
 
 **Evaluation notes:** If certification or endorsement logos and statements are present, they must be clickable and lead to specific informaton about that app.
+
+### ACR-028 ⛔
+
+**Severity: DECEPTOR-LEVEL** — violating this can get the app listed as a Deceptor; AV/security vendors block Deceptors without prompting the user.
+
+**Requirement:** (ACR-028) If downloaded and executed by the consumer, provides visibility and interactive control for the consumer, requiring at least one user interaction before completion.
+
+**Intent:** Consumers must be able to see a downloaded installer's action when they execute it.
+
+**How to comply:** This is for non-store installers. If your installer obtains EULA/Privacy, telemetry, or offer interruption consent on the landing page, it must visibly show the install, must be cancellable, and must not auto-dismiss when it's done.
+
+**Scenarios:** Install
+**Consumer principle:** transparent
 
 ### ACR-038
 
@@ -250,12 +263,12 @@ Installer code and install-time UX: what gets written to disk and registry, what
 
 **Intent:** Installs must only come after consumer-accepted offers.
 
-**How to comply:** Do not install unrelated components or apps if you haven't gotten explicit permission (more than opt-out) from the consumer to do so. If you offered your app's value based on acceptance of external monetization, you can only monetize how and for whom you said you would, and you must  obtain explicit user permission if you wish to do otherwise. Do not initiate network communications with 3rd parties before obtaining user consent of EULA/Privacy policy that describes the communications.
+**How to comply:** Do not install unrelated components or apps if you haven't gotten explicit permission (more than opt-out) from the consumer to do so. If you offered your app's value based on acceptance of external monetization, you can only monetize how and for whom you said you would, and you must  obtain explicit user permission if you wish to do otherwise. The only consents you gather as landing-page-only (not in the installer) are EULA/Privacy, telemetry, and offer interruption. All other consents must be done in the installer or software.
 
 **Scenarios:** Install, Software
 **Consumer principle:** trustworthy
 
-**Evaluation notes:** Check that no trusted root certificates are installed, no PE files are dropped, no network communications to 3rd party offer providers or networks are performed, prior to user consent. This applies at install time of the main app, as well as for any offers to install additional software.
+**Evaluation notes:** Check that no additional 3rd party PE files are dropped or run prior to user acceptance of the offer to install additional software.
 
 ### ACR-043 ⛔
 
@@ -426,7 +439,7 @@ Installer code and install-time UX: what gets written to disk and registry, what
 
 **Requirement:** (ACR-065) Show both links and assent language to the app's EULA and/or Terms of Service, Returns and Cancellation Policy, Privacy Policy.
 
-**Intent:** The offers, install, and the app user experience (or readme files if no user experience) need to link back to the app docs.
+**Intent:** The offers and the app user experience (or readme files if no user experience) need to link back to the app docs.
 
 **How to comply:** Put links to your EULA/Terms of Service, your returns policy if applicable, and your privacy policy.
 
